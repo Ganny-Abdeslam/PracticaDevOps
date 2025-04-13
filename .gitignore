@@ -1,0 +1,22 @@
+# Entorno virtual
+venv/
+.env
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Configuración de VSCode u otros editores
+.vscode/
+.idea/
+
+# Archivos temporales del sistema
+.DS_Store
+*.log
+
+# Docker
+*.pid
+*.db
+*.sqlite3
+docker-compose.override.yml
